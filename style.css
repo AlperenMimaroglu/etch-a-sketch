@@ -1,0 +1,17 @@
+.container {
+    background-color: gray;
+    width: 1025px;
+    height: 1025px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+}
+
+/*need to create a grid*/
+.item {
+    flex: 1;
+    border: black solid 1px;
+}
