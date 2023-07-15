@@ -1,3 +1,21 @@
 .container {
-    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    outline: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.item {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 100%;
 }
